@@ -157,63 +157,55 @@ python mydataset2lerobot_2angle_all_task.py \
 
 
 modality.json文件:
+```json
 {
-    "state":{
-        "arm_left":{
-            "start":6,
-            "end":12
+    "state": {
+        "arm_left": {
+            "start": 6,
+            "end": 12
         },
-        "arm_right":{
-            "start":18,
-            "end":24
+        "arm_right": {
+            "start": 18,
+            "end": 24
         },
-        "hand_left":{
-            "start":30,
-            "end":36
+        "hand_left": {
+            "start": 30,
+            "end": 36
         },
-        "hand_right":{
-            "start":48,
-            "end":54
+        "hand_right": {
+            "start": 48,
+            "end": 54
         }
     },
-    "action":{
-        "arm_left":{
-            "start":0,
-            "end":6
+    "action": {
+        "arm_left": {
+            "start": 0,
+            "end": 6
         },
-        "arm_right":{
-            "start":6,
-            "end":12
+        "arm_right": {
+            "start": 6,
+            "end": 12
         },
-        "hand_left":{
-            "start":12,
-            "end":18
+        "hand_left": {
+            "start": 12,
+            "end": 18
         },
-        "hand_right":{
-            "start":18,
-            "end":24
+        "hand_right": {
+            "start": 18,
+            "end": 24
         }
     },
-
-    "video":{
-        
+    "video": {
         "cam_head_left": {
             "original_key": "observation.images.cam_head_left"
-            },
+        },
         "cam_head_right": {
             "original_key": "observation.images.cam_head_right"
         }
-        
     },
-
-
-    "annotation":{
-        "human.action.task_description":{
+    "annotation": {
+        "human.action.task_description": {
             "original_key": "task_index"
         }
     }
-
-
-
-
 }
